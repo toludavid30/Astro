@@ -1,0 +1,270 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./CSS/astro.css">
+    <link rel="stylesheet" href="./astro.css">
+</head>
+<body id="Blog">
+    <nav>
+        <div class="navwrapper">
+            <div class="left">
+                <div class="logo">
+                    <a href="./index.html"><img src="./astro-logo-light.png" alt="logo"></a>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="">Documentation</a></li>
+                        <li><a href="./showcase.html">Showcase</a></li>
+                        <li class="dropdown"><a href="" class="btn btn-dark-100 text-light  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"">Resources</a>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">Themes</button></li>
+                                <li><button class="dropdown-item" type="button">Integrations</button></li>
+                                <li><button class="dropdown-item" type="button">Tutorials</button></li>
+                              </ul>
+                        </li>
+                        <li><a href="./Blog.html">Blog</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <a href=""><i class="bi bi-github"></i></a>
+                <a href=""><i class="bi bi-discord"></i></a>
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a class="btn btn-dark-100 hamburger " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="bi bi-list text-light"></i>
+                  </a>
+            </div>
+        </div>
+        <div class="collapse bg-dark" id="collapseExample">
+            <div class=" card card-body bg-dark drop">
+                <ul style="flex-direction: column;">
+                    <li><a href="">Docs</a></li>
+                    <li><a href="./showcase.html">Showcase</a></li>
+                    <li class="dropdown"><div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Resources
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <ul class="d-flex flex-column drop2 ">
+                                <li><a class="" >Themes</a></li>
+                                <li><a class="" type="">Integrations</a></li>
+                                <li><a class="" type="">Tutorials</a></li>
+                              </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li><a href="./Blog.html">Blog</a></li>
+                    <li><a href="">About</a></li>
+                    <div class="Get">
+                        <a href=""><i class="bi bi-github"></i></a>
+                        <a href=""><i class="bi bi-discord"></i></a>
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                    </div>
+                    <div class="Get">
+                        <button>Get Started</button>
+                    </div>
+                </ul>
+            </div>
+          </div>
+        </nav>
+        <section id="Blog">
+            <div class="wrapper">
+                <div class="textWrapper py-5 text-center">
+                    <h1 class=" text-light fs-1 pt-4">Welcome, world</h1>
+                    <p class=" text-secondary fs-4 pb-4">Get all the latest news from the Astroverse.</p>
+                </div>
+                <div class="mainBody">
+                    <div class="left col-4 border-top border-secondary">
+                        <div class="popular p-4 border-buttom border-dark">
+                            <ul class="list-unstyled d-flex flex-column fs-5 gap-2 ">
+                                <li class="text-light">Popular posts</li>
+                                <li><a href="" class="text-info">Astro 2.0</a></li>
+                                <li><a href="" class="text-info">Introducing Content Collections: Type-Safe Markdown in Astro 2.0</a></li>
+                                <li><a href="" class="text-info">WebStorm announces official support for Astro</a></li>
+                                <li><a href="" class="text-info">Unlock New Possibilities with Hybrid Rendering</a></li>
+                            </ul>
+                        </div>
+                        <div class="subscribe border-top border-bottom border-secondary p-4">
+                            <p class="text-light">Subscribe</p>
+                            <p class="pb-1 text-secondary">Stay up-to-date with news from the Astroverse</p>
+                            <a href=""><button type="button" class="btn btn-dark rounded-5 border-2 border-light px-4"><i class="bi bi-rss fs-4"></i> RSS</button></a>
+                        </div>
+                    </div>
+                    <div class="right col-12 col-lg-8 p-5 border-top border-start border-secondary d-flex flex-column gap-5">
+                        <a href=""><div class="astro22 box p-4 mt-4" style="height: 550px;">
+                            <p class="text-info">April 5, 2023</p>
+                                <img src="./blog-hero-2_2-release.e8227032.jpg" alt="" class=" pic my-4 container-fluid">
+                                <div class="text d-flex  justify-content-between ">
+                                    <h1 class="text-light">Astro 2.2</h1>
+                                    <p class="text-secondary">CDN support for assets • image() schema helper API change • Much more!</p>
+                                </div>
+                        </div></a>
+                        <a href=""><div class="cloud box2 p-4 ">
+                            <p class="text-info">March 17, 2023</p>
+                            <img src="./astro-cloudcannon-hero.a8b076df.webp" alt="" class=" pic my-4 container-fluid">
+                            <div class="text d-flex  justify-content-between ">
+                                <h1 class="text-light">CloudCannon announces official support for Astro </h1>
+                                <p class="text-secondary">CloudCannon, a popular Git-based CMS for static site generators, has announced full support for Astro.</p>
+                                </div>
+                        </div></a>
+                        <a href=""><div class="astro21 box p-4">
+                            <p class="text-info">March 8, 2023</p>
+                            <img src="./blog-hero-2_1-release.b5ed3921.webp" alt="" class=" pic my-4 container-fluid">
+                            <div class="text d-flex  justify-content-between ">
+                                <h1 class="text-light">Astro 2.1</h1>
+                                <p class="text-secondary">Introducing built-in image support • Markdoc integration • Watch mode for astro check • New TypeScript helpers and more!</p>
+                                </div>
+                        </div></a>
+                        <a href=""><div class="2023 box2 p-4">
+                            <p class="text-info">March 7, 2023</p>
+                            <div class="text d-flex  justify-content-between ">
+                                <h1 class="text-light">2023 Web Framework Perfomance Report</h1>
+                                <p class="text-secondary">A look at how different web frameworks perform in the real world in 2023. Based on real-world, production data from HTTP Archive and Google Chrome.</p>
+                                </div>
+                        </div></a>
+                        <a href=""><div class="welcome box2 p-4">
+                            <p class="text-info">March 6, 2023</p>
+                            <img src="./blog-cover.2f69e680.png" alt="" class=" pic my-4 container-fluid">
+                            <div class="text d-flex  justify-content-between ">
+                                <h1 class="text-light">Welcome, World</h1>
+                                <p class="text-secondary">Astro's new look is live! Learn all about our new brand including the design process, our new logo, typeface, color palette, and mascot.</p>
+                                </div>
+                        </div></a>
+                        <a href=""><div class="WebStorm box2 p-4">
+                            <p class="text-info">February 3, 2023</p>
+                            <img src="./astro-webstorm-hero.5735f10b.webp" alt="" class=" pic my-4 container-fluid">
+                            <div class="text d-flex  justify-content-between ">
+                                <h1 class="text-light">WebStorm announces official support for Astro</h1>
+                                <p class="text-secondary">WebStorm, the popular IDE for Javascript by JetBrains, has announced initial support for Astro. Features include syntax highlighting, code completion, refactorings, navigation, intentions, code folding, Emmet support, and correct formatting.</p>
+                                </div>
+                        </div></a>
+                        <a href=""><div class="astro box2 p-4">
+                            <p class="text-info">January 27, 2023</p>
+                            <div class="text d-flex  justify-content-between ">
+                                <h1 class="text-light">Astro Community Awards 2022</h1>
+                                <p class="text-secondary">The Astro Community Awards for 2022 have been announced! These awards recognize the Astro community members who went above and beyond the past year. Read more to find out who was recognized!</p>
+                                </div>
+                        </div></a>
+                        <a href=""><div class="Unlock box2 p-4">
+                            <p class="text-info">January 26, 2023</p>
+                            <img src="./cover.8ec029b2.webp" alt="" class=" pic my-4 container-fluid">
+                            <div class="text d-flex  justify-content-between ">
+                                <h1 class="text-light">Unlock New Possibilities with Hybrid Rendering</h1>
+                                <p class="text-secondary">New in Astro 2.0: Hybrid rendering unlocks the best of both worlds—choose between the performance of static pages or the full flexibility of server rendering for each page of your website.</p>
+                                </div>
+                        </div></a>
+                        <a href=""><div class="Introducing box2 p-4">
+                            <p class="text-info">January 25, 2023</p>
+                            <img src="./cover.8c80c458.webp" alt="" class=" pic my-4 container-fluid">
+                            <div class="text d-flex  justify-content-between ">
+                                <h1 class="text-light">Introducing Content Collections: Type-Safe Markdown in Astro 2.0</h1>
+                                <p class="text-secondary">New in Astro 2.0: Content Collections deliver a better developer experience for working with local content like Markdown and MDX. Powered by TypeScript, your local content is now automatically typed and validated for you against a schema so that you never miss or misspell another frontmatter property name again.</p>
+                                </div>
+                        </div></a>
+                        <a href=""><div class="astro20 box2 p-4">
+                            <p class="text-info">January 24, 2023</p>
+                            <img src="./cover.cb4ba47d.webp" alt="" class=" pic my-4 container-fluid">
+                            <div class="text d-flex  justify-content-between ">
+                                <h1 class="text-light">Astro 2.0</h1>
+                                <p class="text-secondary">Astro 2.0 is here! Astro 2.0 is the first major web framework to deliver complete type-safety for Markdown and MDX. Other release highlights include: Hybrid Rendering • Redesigned Error Overlays • Improved Dev Server and HMR • Vite 4.0 • A New Public Roadmap</p>
+                                </div>
+                        </div></a>
+                        <a href=""><div class="Themes box2 p-4">
+                            <p class="text-info">December 8, 2022</p>
+                            <div class="text d-flex  justify-content-between ">
+                                <h1 class="text-light">Theme Catelog Updates</h1>
+                                <p class="text-secondary">Announcing the new and improved themes catalog. Now with support for more detailed theme descriptions and paid themes.</p>
+                                </div>
+                        </div></a>
+                        <a href=""><div class="announcing box2 p-4">
+                            <p class="text-info">November 4, 2022</p>
+                            <img src="./cover.97e52c7e.webp" alt="" class=" pic my-4 container-fluid">
+                            <div class="text d-flex  justify-content-between ">
+                                <h1 class="text-light"> Announcing the Astro Tutorial</h1>
+                                <p class="text-secondary">Wrapping up Astro Docs week with our biggest Docs announcement to date: our first Astro Tutorial.</p>
+                                </div>
+                        </div></a>
+                        <div class="pages">
+                            <div class="numbers">
+                                <a href="" class="one">1</a>
+                                <a href="" class="two">2</a>
+                                <a href="" class="two">3</a>
+                                <!-- <span>...</span> -->
+                                <a href="" class="two">4</a>
+                                <a href=""><i class="bi bi-arrow-right-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class=" border-top border-secondary py-5 px-4">
+            <div class="wrapper">
+                <div class="main pb-5 d-flex flex-column flex-md-row justify-content-between">
+                    <div class="left d-flex gap-5">
+                        <ul class="list-unstyled pe-5 d-flex flex-column gap-2">
+                            <li >Resources</li>
+                            <li><a href="">Documentation</a></li>
+                            <li><a href="">Starter templates</a></li>
+                            <li><a href="">Theme</a></li>
+                            <li><a href="">Integrations</a></li>
+                        </ul>
+                        <ul class="list-unstyled pe-5 d-flex flex-column gap-2">
+                            <li>Community</li>
+                            <li><a href="">Showcase</a></li>
+                            <li><a href="">Contributing</a></li>
+                            <li><a href="">Open Collective</a></li>
+                            <li><a href="">Join our Discord</a></li>
+                        </ul>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li>Links</li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Press</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Partner with us!</a></li>
+                            <li><a href="">Wallpapers</a></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul class="list-unstyled d-flex gap-2 fs-2">
+                            <li><a href=""><i class="bi bi-github"></i></a></li>
+                            <li><a href=""><i class="bi bi-discord"></i></a></li>
+                            <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                            <li><a href=""><i class="bi bi-mastodon"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="foot border-top border-secondary pt-5 d-flex justify-content-between">
+                    <ul class="list-unstyled d-flex gap-2">
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms of Service</a></li>
+                    </ul>
+                    <ul class="list-unstyled d-flex gap-1">
+                        <li><a href="">MIT License</a></li>
+                        <li>© 2023</li>
+                        <li><a href="">Astro Contributors</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>  
+</body>
+</html>
